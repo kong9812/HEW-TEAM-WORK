@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{9beb046b-4c65-4ede-9f84-cb3e7a016927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{d053852a-0acb-4838-b18a-f446b4ae42b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\title">
+      <UniqueIdentifier>{7f359222-ac08-4c9c-b76e-6b538c6008f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\title">
+      <UniqueIdentifier>{49c9f4ab-8868-4fa7-9ebc-9caa02c32640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameStage">
+      <UniqueIdentifier>{8b858b94-de31-49c4-b596-c2783ee54ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameStage">
+      <UniqueIdentifier>{6192fba6-26c0-4e62-8ad5-149fdcd6334c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameStage\UI">
+      <UniqueIdentifier>{84225e60-dc4a-4cfd-9844-7b02f802a085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameStage\UI">
+      <UniqueIdentifier>{a79781f8-ad21-4586-90e6-8863e13e4016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameStage\enemy">
+      <UniqueIdentifier>{95c38cbc-95f4-4d5b-9cdf-bbfe0ac61f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameStage\enemy">
+      <UniqueIdentifier>{447c2e9a-4c61-46b1-bcfd-b70b7842c442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameStage\attack">
+      <UniqueIdentifier>{1a754781-550e-4485-994b-94d7b273af3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameStage\attack">
+      <UniqueIdentifier>{94a87e5a-54c5-4b79-bd9e-173b5c3794a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shop">
+      <UniqueIdentifier>{b7cc3739-a1b6-4fd5-8723-9b0763405040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\shop">
+      <UniqueIdentifier>{5847e884-a012-4412-bbad-8f29750a19ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameStage\coin">
+      <UniqueIdentifier>{44e4f3a9-1873-4756-ac4e-dd4364e6470a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameStage\coin">
+      <UniqueIdentifier>{7ac206c7-c9dd-491e-8c85-a5d867769e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\weapons">
+      <UniqueIdentifier>{9e3f17e6-fdf7-4918-beec-94e8dad487e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\weapons">
+      <UniqueIdentifier>{b3b2bea9-bf96-4e73-9750-945bb1f5976b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameOver">
+      <UniqueIdentifier>{91a3b636-5393-4985-9633-b4add175f538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameOver">
+      <UniqueIdentifier>{089fb773-2dad-43ad-a7ae-011420a261bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameClear">
+      <UniqueIdentifier>{34e9cb76-2db0-43c5-9664-3075e727a6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameClear">
+      <UniqueIdentifier>{89dda9ac-1411-4d28-a342-3d55e7546d23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="fastDraw2D.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="titleManager.h">
+      <Filter>ヘッダー ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="titleLogo.h">
+      <Filter>ヘッダー ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="titleBackground.h">
+      <Filter>ヘッダー ファイル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="stageBar.h">
+      <Filter>ヘッダー ファイル\gameStage\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="stageManager.h">
+      <Filter>ヘッダー ファイル\gameStage</Filter>
+    </ClInclude>
+    <ClInclude Include="stars.h">
+      <Filter>ヘッダー ファイル\gameStage\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="gameBackground.h">
+      <Filter>ヘッダー ファイル\gameStage\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="attack.h">
+      <Filter>ヘッダー ファイル\gameStage\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>ヘッダー ファイル\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="attackEffect.h">
+      <Filter>ヘッダー ファイル\gameStage\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>ヘッダー ファイル\gameStage\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="gaugeBar.h">
+      <Filter>ヘッダー ファイル\gameStage\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>ヘッダー ファイル\gameStage\coin</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>ヘッダー ファイル\gameStage\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons.h">
+      <Filter>ヘッダー ファイル\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOver.h">
+      <Filter>ヘッダー ファイル\gameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="gameClear.h">
+      <Filter>ヘッダー ファイル\gameClear</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="soundEffect.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="basic.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="titleBackground.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="fastDraw2D.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="titleManager.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="titleLogo.cpp">
+      <Filter>ソース ファイル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="stageBar.cpp">
+      <Filter>ソース ファイル\gameStage\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="stageManager.cpp">
+      <Filter>ソース ファイル\gameStage</Filter>
+    </ClCompile>
+    <ClCompile Include="stars.cpp">
+      <Filter>ソース ファイル\gameStage\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="gameBackground.cpp">
+      <Filter>ソース ファイル\gameStage\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="attack.cpp">
+      <Filter>ソース ファイル\gameStage\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>ソース ファイル\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="attackEffect.cpp">
+      <Filter>ソース ファイル\gameStage\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>ソース ファイル\gameStage\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="gaugeBar.cpp">
+      <Filter>ソース ファイル\gameStage\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>ソース ファイル\gameStage\coin</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>ソース ファイル\gameStage\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons.cpp">
+      <Filter>ソース ファイル\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOver.cpp">
+      <Filter>ソース ファイル\gameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="gameClear.cpp">
+      <Filter>ソース ファイル\gameClear</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="soundEffect.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
